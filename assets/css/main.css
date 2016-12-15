@@ -1,0 +1,118 @@
+body {
+	padding-top: 0px;
+	background-color: #ecf0f5;
+	font-family: arial, helvetica, sans-serif;
+}
+
+iframe {
+	overflow-y: scroll;
+	height: 300px;
+	width: 100%;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron {
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+}
+
+.jumbotron .btn {
+	padding: 0px 24px 10px;
+	font-size: 21px;
+}
+
+.jumbotron h1 {
+	font-size: 45px;
+}
+
+.jumbotron hr {
+	width: 450px;
+}
+
+.col-md-6 {
+	padding-bottom: 15px !important;
+}
+
+.panel-title {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+    text-align: center;
+    padding: 5px 0 10px;
+    text-decoration: underline;
+}
+
+.group-btn-bw {
+    padding-bottom: 0px !important;
+}
+
+/* hotmatrix */
+
+table.hostmatrix { border-spacing: 0;  }
+table.hostmatrix tr { padding: 0; border-spacing: 0; }
+table.hostmatrix a { display: block; width: 100%; height: 100%; line-height: 100%; }
+table.hostmatrix td { border: 1px solid #123a4a; padding: 0; border-spacing: 0; }
+
+div.snapin {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #6da1b8;
+}
+
+div.snapin:last-child {
+	margin-bottom: 10px;
+}
+
+div.snapin div.head.open {
+	border: 1px solid #40697b;
+	background: #6da1b8 url(/images/ui-bg_highlight-soft_75_6da1b8_1x100.png) 50% 50% repeat-x;
+	color: #fff;
+	font-weight: bold;
+}
+
+div.snapin div.head {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 26px;
+	line-height: 29px;
+}
+
+div.snapin div.minisnapin {
+	float: left;
+	margin-left: 13px;
+	margin-top: 11px;
+	line-height: 0px;
+	height: 8px;
+}
+
+div.snapin div.content {
+	background-image: none;
+	padding: 10px 15px 5px;
+	width: 100%;
+}
+
+div.snapin div.foot {
+	background-image: none;
+	width: 100%;
+	line-height: 5px;
+}
+
+/* end host matrix */
+
+.btn-group, .group-cus {
+	margin-bottom: 5px;
+}
+
+.area-space {
+	min-height: 38px;
+}
+
+.selected {
+	background-color: #ccc;
+}
